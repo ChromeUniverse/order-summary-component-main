@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Red Hat Display';
+  background-color: hsl(225, 100%, 94%);
+  font-size: 14px;
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.card {
+  width: 360px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding-bottom: 15px;
+  /* box-shadow: 0 15px 30px  */
+
+  ;
+}
+
+.card-hero {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-main {
+  padding: 0px 35px;
+}
+
+.card-title, .card-desc {
+  text-align: center;
+}
+
+.card-title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 790;
+  margin: 32px 10px 10px;
+}
+
+.card-desc {
+  color: hsl(224, 23%, 55%);
+}
+
+.card-widget {
+  width: 100%;
+  padding: 0px;
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.card-widget-item {
+  margin: 15px 20px;
+}
+
+.card-widget-icon {
+  margin-right: 0;
+}
+
+.card-widget-desc {
+  display: flex;
+  margin-left: 0;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-widget-desc-item-1, .card-widget-desc-item-2 {
+  margin: 0;
+}
+
+.card-widget-desc-item-1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.card-widget-desc-item-2 {
+  color: hsl(224, 23%, 55%);;
+}
+
+.card-widget-link {
+  margin-left: auto;
+  margin-right: 20px;
+  font-weight: 900;
+}
+
+.card-btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-btn {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  margin: 5px 0;
+  font-weight: 900;
+  background: none;
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0 15px 20px hsl(225, 100%, 94%);
+  /* box-shadow: 0 10px 50px hsl(245, 75%, 52%); */
+}
+
+.btn-primary:hover {
+  background-color: hsl(223, 47%, 23%);
+}
+
+.btn-secondary {
+  color: hsl(224, 23%, 55%);
+}
+
+.btn-secondary:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  text-align: center;
+}
